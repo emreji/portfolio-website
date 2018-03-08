@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+a {
+    color: black;
+}
+
+.phone, .email {
+    display: inline-block;
+}
+
+.phone {
+    margin: 10px;
+}
+
+.email {
+    margin: 10px;
+}
+
+.demo {
+    margin: 10px;
+}
+
+@media (max-width:480px) {
+    
+}
