@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    margin-top: 2em;
+}
+
+.navigation {
+    float: left;
+    width: 20%;
+    padding: 2.5%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.content {
+    float: right;
+    width: 70%;
+    /* padding: 0 2.5% 0 2.5%; */
+    margin-top: 0px;
+}
+
+.navigation .socialicons ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+.navigation .socialicons li {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+}
+
+.navigation .nav-links ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+.navigation .nav-links li {
+    padding-top: 25px;
+}
+
+.nav-links {
+    padding-top: 20px;
+    display: block;
+}
+
+.nav-links a {
+    padding-left: 10px;
+    clear: both;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-links {
+    padding: 0;
+    background-color: white;
+    display: block;
+    overflow: hidden;
+}
+
+

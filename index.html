@@ -5,25 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Elizabeth Reji</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="script/jquery.fullPage.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style-web.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style-ipad.css" media="screen and (max-width: 900px)" />
+    <script type="text/javascript" src="script/emreji.js"></script>
 </head>
 <body>
-    
     <div class="container">
-        <h1>Elizabeth Reji</h1>
-        <h4>Web Developer</h4>
-        <div class="contact">
-            <div class="email">
-                <i class="fas fa-envelope"></i>
-                <a href="mailto:lizareji23@gmail.com?Subject=Hey!" target="_top">lizareji23@gmail.com</a>
+        <div class="navigation">
+
+            <div class="hamburger" id="hamburger" onclick="toggleHamburger()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
             </div>
-            <div class="phone"><i class="fa fa-phone"></i> +1 416-312-1932</div>
+
+            <div class="profile">
+                <div class="profile-image">
+                    <img src="images/emreji_profile_pic.jpeg" alt="Elizabeth Reji Profile Picture" />
+                </div>
+                <div class="quickprofile">
+                    <div class="name">
+                        <h3>Elizabeth Reji</h3>
+                    </div>
+                    <div class="socialicons">
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="nav-links" class="nav-links">
+                <ul>
+                    <li><i class="fa fa-home"></i><a href="#home" onclick="toggleHamburger()">Home</a></li>
+                    <li><i class="fa fa-code"></i><a href="#projects-and-demos" onclick="toggleHamburger()">Projects and Demos</a></li>
+                    <li><i class="fa fa-wrench"></i><a href="#skills" onclick="toggleHamburger()">Skills</a></li>
+                    <li><i class="fa fa-file"></i><a href="#resume" onclick="toggleHamburger()">Resume</a></li>
+                    <li><i class="fa fa-at"></i><a href="#contact-me" onclick="toggleHamburger()">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
-        <a href="https://www.linkedin.com/in/elizabethreji/" target="_blank">LinkedIn</a> | 
-        <a href="https://github.com/emreji" target="_blank">Github</a>
-        <div class="demo">
-            Demo: <a href="http://emreji.com/instagram/">Instagram</a> 
+        <div class="content">
+            <div id="fullpage">
+                <div class="section active" id="section0">
+                    <h1>Welcome</h1>
+                </div>
+                <div class="section" id="section1">
+                    <h1>Projects and Demos</h1>
+                </div>
+                <div class="section" id="section2">
+                    <h1>Skills</h1>
+                </div>
+                <div class="section" id="section3">
+                    <h1>Resume</h1>
+                </div>
+                <div class="section" id="section4">
+                    <h1>Contact</h1>
+                </div>
+            </div>
         </div>
     </div>
 </body>
