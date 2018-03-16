@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
 body {
     margin: 0 auto;
     width: 90%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 18px;
 }
 
@@ -22,6 +24,13 @@ h1 {
     top: 0;
 }
 
+.footer-image {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+}
+
 .profile-image img {
     width: 200px;
     height: 200px;
@@ -31,8 +40,9 @@ h1 {
 .content {
     float: right;
     width: 70%;
-    /* padding: 0 2.5% 0 2.5%; */
     margin-top: 0px;
+    font-size: 1.4em;
+    line-height: 2em;
 }
 
 .navigation .socialicons ul {
@@ -76,6 +86,88 @@ a {
     background-color: white;
     display: block;
     overflow: hidden;
+    font-size: 0.9em;
 }
 
+.contact .highlight {
+    color: #0B6ADF;
+}
 
+/* Skills */
+
+.skills-container {
+  width: 80%;
+  background-color: #ddd;
+  margin-top: 40px;
+  font-size: 0.8em;
+  border-radius: 20px;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: white;
+  border-radius: 20px;
+}
+
+.js {width: 90%; background-color: #4CAF50;}
+.frameworks {width: 90%; background-color: #2196F3;}
+.responsive {width: 95%; background-color: #f44336;}
+.css {width: 95%; background-color: #9A18A8;}
+.aspnet {width: 85%; background-color: #4D4DC3;}
+.php {width: 80%; background-color: #3F7C97;}
+
+
+/* Resume */
+
+.education {
+    width: 45%;
+    float: left;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.graduation-year {
+    font-size: 16px;
+}
+
+.program-name {
+    font-weight: bold; 
+}
+
+.college {
+    font-size: 20px;
+}
+
+.resume {
+    font-size: 16px;
+	text-transform: uppercase;
+	padding: 0 25px;
+    position: relative;
+    width: fit-content;
+    float: right;
+    border: 1px solid #000;
+}
+
+.resume:hover {
+    background-color: #4D4DC3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.resume:focus {
+	outline: 0;
+}
+
+.resume-details ul {
+    
+}
+
+.left-block {
+    float: left;
+}

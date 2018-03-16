@@ -42,6 +42,16 @@ h1 {
     float: right;
     width: 100%;
     margin-top: 50px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.contact p {
+    font-size: 0.9em;
+}
+
+.contact .highlight {
+    color: #0B6ADF;
 }
 
 /* Hamburger menu */
@@ -73,4 +83,48 @@ h1 {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Resume */
+
+.education {
+    width: 40%;
+    float: left;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.graduation-year {
+    font-size: 16px;
+}
+
+.program-name {
+    font-weight: bold; 
+}
+
+.college {
+    font-size: 20px;
+}
+
+.resume {
+	font-size: 14px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 0 25px;
+    position: relative;
+    width: fit-content;
+    float: right;
+    border: 1px solid #000;
+}
+
+.resume:hover {
+    cursor: pointer;
+}
+
+.resume:focus {
+	outline: 0;
 }
