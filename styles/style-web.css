@@ -4,7 +4,7 @@ body {
     margin: 0 auto;
     width: 90%;
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 h1 {
@@ -15,6 +15,10 @@ h1 {
     margin-top: 2em;
 }
 
+.name h2 {
+    font-size: 2em;
+}
+
 .navigation {
     float: left;
     width: 20%;
@@ -22,13 +26,6 @@ h1 {
     overflow: hidden;
     position: fixed;
     top: 0;
-}
-
-.footer-image {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    opacity: 0.6;
 }
 
 .profile-image img {
@@ -64,11 +61,18 @@ h1 {
 
 .navigation .nav-links li {
     padding-top: 25px;
+    font-size: 1.4em;
 }
 
 .nav-links {
     padding-top: 20px;
     display: block;
+}
+
+.nav-links li:hover {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(32, 179, 184);
 }
 
 .nav-links a {
@@ -96,7 +100,7 @@ a {
 /* Skills */
 
 .skills-container {
-  width: 80%;
+  width: 90%;
   background-color: #ddd;
   margin-top: 40px;
   font-size: 0.8em;
@@ -104,26 +108,66 @@ a {
 }
 
 .skills {
-  text-align: right;
-  padding-right: 20px;
+  text-align: left;
+  padding-left: 20px;
   line-height: 30px;
   color: white;
   border-radius: 20px;
 }
 
 .js {width: 90%; background-color: #4CAF50;}
-.frameworks {width: 90%; background-color: #2196F3;}
-.responsive {width: 95%; background-color: #f44336;}
-.css {width: 95%; background-color: #9A18A8;}
+.frameworks {width: 90%; background-color: rgb(33, 201, 243);}
+.responsive {width: 95%; background-color: #1e6e7c;}
+.css {width: 95%; background-color: rgb(89, 156, 182);}
 .aspnet {width: 85%; background-color: #4D4DC3;}
 .php {width: 80%; background-color: #3F7C97;}
 
 
 /* Resume */
 
+.resume-head { 
+    overflow: hidden;
+}
+
+.resume-head h1 {
+    float: left;
+    width: 50%;
+}
+
+.resume-head a {
+    text-transform: uppercase;
+	padding: 6px 25px;
+    width: 100px;
+    float: right;
+    border: 1px solid #000;
+}
+
+.resume-head a:hover {
+    background-color: rgb(32, 179, 184);
+    color: #fff;
+    cursor: pointer;
+}
+
+.resume-head a:focus {
+	outline: 0;
+}
+
+.resume-details {
+    overflow: hidden;
+}
+
+.education {
+    float: right;
+    width: 45%;
+}
+
 .education {
     width: 45%;
     float: left;
+}
+
+.fa-file-pdf-o {
+    padding-left: 2%;
 }
 
 .education ul {
@@ -133,41 +177,70 @@ a {
 }
 
 .graduation-year {
-    font-size: 16px;
+    font-size: 0.85em;
+    font-weight: bold;
 }
 
 .program-name {
+    font-size: 1.2em;
     font-weight: bold; 
 }
 
 .college {
-    font-size: 20px;
+    font-size: 1em;
 }
 
-.resume {
-    font-size: 16px;
-	text-transform: uppercase;
-	padding: 0 25px;
-    position: relative;
-    width: fit-content;
-    float: right;
-    border: 1px solid #000;
+.edu-details {
+    padding-bottom: 4%;
 }
 
-.resume:hover {
-    background-color: #4D4DC3;
-    color: #fff;
-    cursor: pointer;
+.ipad-grad-details {
+    display: none;
 }
 
-.resume:focus {
-	outline: 0;
-}
-
-.resume-details ul {
-    
-}
-
-.left-block {
+.work-experience {
     float: left;
+    width: 45%;
+    padding-right: 5%;
 }
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-details:first-child {
+    padding-bottom: 5%;
+}
+
+.position{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+    font-size: 0.8em;
+    padding-left: 2%;
+}
+
+.company {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.company:hover {
+    color: rgb(32, 179, 184);
+}
+
+.job{
+    font-size: 0.9em;
+}
+
+.footer-image {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    opacity: 0.6;
+}
+

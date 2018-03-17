@@ -1,5 +1,16 @@
-h1 {
-    margin-top: 20px;
+body {
+    margin: 0 auto;
+    width: 90%;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+}
+
+.section {
+    margin-top: 5%;
+}
+
+.name h2 {
+    font-size: 1.6em;
 }
 
 .navigation {
@@ -36,6 +47,10 @@ h1 {
     display: none;
     overflow: hidden;
     margin-bottom: 15px
+}
+
+.navigation .nav-links li {
+    font-size: 1.3em;
 }
 
 .content {
@@ -85,6 +100,32 @@ h1 {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
+/* Skills */
+
+.skills-container {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 40px;
+    font-size: 0.8em;
+    border-radius: 20px;
+  }
+  
+  .skills {
+    text-align: left;
+    padding-left: 20px;
+    line-height: 30px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .js {width: 90%; background-color: #4CAF50;}
+  .frameworks {width: 90%; background-color: rgb(33, 201, 243);}
+  .responsive {width: 95%; background-color: #1e6e7c;}
+  .css {width: 95%; background-color: rgb(89, 156, 182);}
+  .aspnet {width: 85%; background-color: #4D4DC3;}
+  .php {width: 80%; background-color: #3F7C97;}
+  
+
 /* Resume */
 
 .education {
@@ -111,7 +152,6 @@ h1 {
 }
 
 .resume {
-	font-size: 14px;
 	text-transform: uppercase;
 	border-radius: 10px;
 	padding: 0 25px;
@@ -127,4 +167,73 @@ h1 {
 
 .resume:focus {
 	outline: 0;
+}
+
+.education {
+    width: 100%;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.graduation-year {
+    display: none;
+}
+
+.program-name {
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+.college {
+    font-size: 1em;
+    display: none;
+}
+
+.edu-details {
+    padding-bottom: 4%;
+}
+
+.ipad-grad-details {
+    font-size: 0.85em;
+    font-weight: bold;
+    display: block;
+}
+
+.work-experience {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.work-experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.position{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.company {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.company:hover {
+    color: rgb(32, 179, 184);
+}
+
+.job{
+    font-size: 0.9em;
+    display: none;
 }
