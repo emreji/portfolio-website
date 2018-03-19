@@ -97,6 +97,57 @@ a {
     color: #0B6ADF;
 }
 
+/* Projects & Demo */
+
+.projects {
+    margin-top: 2%;
+    font-size: 0.9em;
+}
+
+.project {
+    width: 25%;
+    display: inline-block;
+    padding: 2%;
+    text-align: center;
+}
+
+.project img {
+    width: 92%;
+    border-radius: 5px;
+    padding: 2px;
+    height: auto;
+    border: 0.5px solid rgb(128, 132, 136);
+}
+
+.project-name {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.project-desc {
+    font-size: 0.8em;
+}
+
+.demo-links {
+    width: 100%;
+    margin: 0;
+}
+
+.demo-links a {
+    border: 1px solid darkgray;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.demo-links a:first-child {
+    margin-right: 15%;
+}
+
+.demo-links a:hover {
+    background-color: rgb(32, 179, 184);
+    color: white;
+}
+
 /* Skills */
 
 .skills-container {
