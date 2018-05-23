@@ -13,6 +13,16 @@ body {
     font-size: 1.6em;
 }
 
+.bio {
+    padding-top: 5%;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.projects-web {
+    display: none !important;
+}
+
 .navigation {
     float: left;
     width: 100%;
