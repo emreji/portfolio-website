@@ -5,7 +5,11 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         anchors: ['home', 'projects-and-demos', 'skills', 'resume', 'contact-me'],
-        scrollBar: true
+        scrollBar: true,
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+		recordHistory: true
     });
 });
 

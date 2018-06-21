@@ -23,20 +23,20 @@
 
             <div class="profile">
                 <div class="profile-image">
-                    <img src="images/profile-pic.JPG" alt="Elizabeth Reji Profile Picture" />
+                    <img src="images/profile-pic.JPG" title="Elizabeth Reji Profile Picture" alt="Elizabeth Reji Profile Picture" />
                 </div>
                 <div class="quickprofile">
                     <div class="name">
                         <h2>Elizabeth Reji</h2>
                     </div>
-                    <div class="socialicons">
-                        
+                    <div class="title" title="Twinkle twinkle little star, How I wonder what you are!">
+                        Full stack web developer
                     </div>
                 </div>
             </div>
             <div id="nav-links" class="nav-links">
                 <ul>
-                    <li><i class="fa fa-home"></i><a href="#home" onclick="toggleHamburger()">Home</a></li>
+                    <li><i class="fa fa-home"></i><a href="#home" aria-describedby="Home" onclick="toggleHamburger()">Home</a></li>
                     <li><i class="fa fa-code"></i><a href="#projects-and-demos" onclick="toggleHamburger()">Projects and Demos</a></li>
                     <li><i class="fa fa-wrench"></i><a href="#skills" onclick="toggleHamburger()">Skills</a></li>
                     <li><i class="fa fa-file"></i><a href="#resume" onclick="toggleHamburger()">Resume</a></li>
@@ -46,17 +46,17 @@
         </div>
         <div class="content">
             <div id="fullpage">
-                <div class="section active" id="section0">
+                <div class="section active" id="section0" aria-labelledby="Home Page">
                     <div class="bio">
                         <p>
                             Hi, I’m a web developer based out of Toronto, Canada. I love building web applications using cutting edge technologies such as Javascript (love Nodejs with Express) and beautifully craft it with awesome bootstrap (also fontawesome, who doesn't like fontawesome) and deliver it to all kinds of platforms including web, mobile and tablets using responsive designs.
                         </p>
                         <p>
-                            I am also experienced in building web apps using ASP.NET and PHP. Don't forget to checkout my <a href="https://github.com/emreji" target="_blank"><i class="fa fa-github fa-2x"></i></a> page.
+                            I am also experienced in building web apps using ASP.NET and PHP. Don't forget to checkout my <a href="https://github.com/emreji" aria-labelledby="Elizabeth Reji Github page" target="_blank"><i class="fa fa-github fa-2x"></i></a> page.
                         </p> 
                     </div>  
                 </div>
-                <div class="section" id="section1">
+                <div class="section" id="section1" aria-labelledby="Projects and Demos Page">
                     <h1>Projects and Demos</h1>
                     <div class="projects">
                         <div class="project projects-web">
@@ -64,8 +64,8 @@
                                 <div class="project-name">Instagram-Flickr</div>
                                 <div class="project-desc">​HTML/CSS/Javascript</div>
                                 <div class="demo-links">
-                                    <a href="https://github.com/emreji/instagram-flickr" target="_blank">Github</a>
-                                    <a href="http://emreji.com/instagram/" target="_blank">Demo</a>
+                                    <a href="https://github.com/emreji/instagram-flickr" aria-labelledby="Github link for Instagram project" target="_blank">Github</a>
+                                    <a href="http://emreji.com/instagram/" aria-labelledby="Demo link for Instagram project" target="_blank">Demo</a>
                                 </div>
                             </div>
                             <div class="project">
@@ -73,8 +73,8 @@
                                 <div class="project-name">Web-whatsapp</div>
                                 <div class="project-desc">Javascript/Nodejs/Socket.io/HTML/CSS</div>
                                 <div class="demo-links">
-                                    <a href="https://github.com/emreji/whatsapp-web" target="_blank">Github</a>
-                                    <a href="https://liz-whatsapp-web.herokuapp.com/" target="_blank">Demo</a>
+                                    <a href="https://github.com/emreji/whatsapp-web" aria-labelledby="Github link for Web-Whatsapp project" target="_blank">Github</a>
+                                    <a href="https://liz-whatsapp-web.herokuapp.com/" aria-labelledby="Demo link for Web-whatsapp project" target="_blank">Demo</a>
                                 </div>
                             </div>
                             <div class="project">
@@ -82,7 +82,8 @@
                                 <div class="project-name">NetBoost</div>
                                 <div class="project-desc">PHP/HTML/CSS/MySQL</div>
                                 <div class="demo-links">
-                                    <a href="http://netboost.ca/" target="_blank">Demo</a>
+                                    <a href="https://docs.google.com/document/d/1hW3l-1QXf6KDQJCbqpQNQttfHdxJR03FI8yYgrjPmwY/edit?usp=sharing" aria-labelledby="Case Study for Netboost project" target="_blank">Case Study</a>
+                                    <a href="http://netboost.ca/" aria-labelledby="Demo link for Netboost project" target="_blank">Demo</a>
                                 </div>
                             </div>
                             <div class="project">
@@ -90,8 +91,8 @@
                                 <div class="project-name">Calendar</div>
                                 <div class="project-desc">PHP/HTML/CSS/Google API</div>
                                 <div class="demo-links">
-                                    <a href="https://github.com/emreji/calendar" target="_blank">Github</a>
-                                    <a href="http://emreji.com/calendar" target="_blank">Demo</a>
+                                    <a href="https://github.com/emreji/calendar" aria-labelledby="Github link for Calendar project" target="_blank">Github</a>
+                                    <a href="http://emreji.com/calendar" aria-labelledby="Demo link for Calendar project" target="_blank">Demo</a>
                                 </div>
                             </div>
                             <div class="project">
@@ -99,7 +100,7 @@
                                 <div class="project-name">NSHN-Hospital Redesign</div>
                                 <div class="project-desc">ASP.NET MVC/HTML/MSSQL</div>
                                 <div class="demo-links">
-                                    <a href="http://nshn-hospital.azurewebsites.net/" target="_blank">Demo</a>
+                                    <a href="http://nshn-hospital.azurewebsites.net/" aria-labelledby="Demo link for Instagram project" target="_blank">Demo</a>
                                 </div>
                             </div>
                             <div class="project projects-web">
@@ -107,8 +108,8 @@
                                     <div class="project-name">Seasons</div>
                                     <div class="project-desc">CSS3 Animation/HTML/Javascript</div> 
                                     <div class="demo-links">
-                                        <a href="https://github.com/emreji/seasons" target="_blank">Github</a>
-                                        <a href="http://emreji.com/seasons/" target="_blank">Demo</a>
+                                        <a href="https://github.com/emreji/seasons" aria-labelledby="Github link for Seasons project" target="_blank">Github</a>
+                                        <a href="http://emreji.com/seasons/" aria-labelledby="Demo link for Instagram project" target="_blank">Demo</a>
                                     </div>
                                 </div>
                     </div>
@@ -138,7 +139,7 @@
                 <div class="section" id="section3">
                     <div class="resume-head">
                         <h1>Resume</h1>
-                        <a href="https://goo.gl/UZpkmg" target="_blank">
+                        <a href="https://goo.gl/UZpkmg" aria-labelledby="Elizabeth Resume" target="_blank">
                             Resume  <i class="fa fa-file-pdf-o"></i></i>
                         </a>
                     </div>
@@ -148,14 +149,14 @@
                             <ul>
                                 <li class="work-details">
                                     <ul>
-                                        <li><a class="company" href="https://www.capgemini.com/" target="_blank">Capgemini</a><span class="duration">Dec 2015 - Jan 2017</span></li>
+                                        <li><a class="company" href="https://www.capgemini.com/" aria-labelledby="Capgemini company website" target="_blank">Capgemini</a><span class="duration">Dec 2015 - Jan 2017</span></li>
                                         <li class="position">Software Engineer</li>
                                         <li class="job">Developed web application using Javascript, HTML and CSS.</li>
                                     </ul>
                                 </li>
                                 <li class="work-details">
                                     <ul>
-                                        <li><a class="company" href="https://www.allianz.com/en/" target="_blank">Allianz</a><span class="duration">Mar 2015 - Nov 2015</span></li>
+                                        <li><a class="company" href="https://www.allianz.com/en/" aria-labelledby="Allianz company website" target="_blank">Allianz</a><span class="duration">Mar 2015 - Nov 2015</span></li>
                                         <li class="position">Customer Service Associate</li>
                                         <li class="job">Worked as an insurance service representative to support cutomers.</li>
                                     </ul>
@@ -202,7 +203,7 @@
                     </p>
                 </div>
             </div>
-            <div><img src="images/toronto_skyline.png" class="footer-image"/></div>
+            <div><img src="images/toronto_skyline.png" alt="Toronto skyline" class="footer-image"/></div>
         </div>
     </div>
 </body>
